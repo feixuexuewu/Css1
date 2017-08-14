@@ -24,7 +24,7 @@ img{ border:none; }
 .con_select{background:url(images/star.png) no-repeat left center/0.12rem auto; padding:0 0.15rem; width:0.4rem;  border-right:#e1e5e7 solid 1px; margin-right:0.1rem;}
 .con_select:last-child{border-right:none;}
 .con_left{color:#999; border-right:#e1e5e7 solid 1px; width:0.8rem; position:absolute;top:50%; transform: translateY(-50%);}
-.con_right{margin-left:1rem; position:absolute;top:50%; transform: translateY(-50%);}
+.con_right{margin-left:1rem; display:block;}
 .red{ color:#e26163; }
 .introduce{ font-size:0.14rem; }
 .foot{ width:100%; overflow:hidden; position:fixed; bottom:0.2rem; padding:0 0.19rem; box-sizing:border-box; }
