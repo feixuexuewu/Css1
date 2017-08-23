@@ -1,0 +1,51 @@
+html,body,div,a,span,p,img,ul,li,i{padding: 0; margin: 0;}
+a, a:hover{ text-decoration: none; color: #333;}
+img{ border:none; }
+ul li{ list-style:none; }
+
+.top{ width: 100%; height:44px; background-color:#5fc0cd; color: #fff; line-height:44px; overflow:hidden; position:fixed; top:0; left:0; z-index: 999;}
+.bgimg{ background-image:url(../images/sprite_img.png); background-repeat:no-repeat;}
+.top_img{float:right; width:34px; height:44px; background-position:4px 0px; }
+.top_center{ text-align:center; height:44px;}
+.btn_bg{ display:inline-block; height:36px; margin:4px auto; background-color:#55a8b3; border-radius:4px; font-size:16px; line-height:36px; }
+.btn_bg span{padding:0 12px; color:#fff; cursor:pointer; float: left; }
+.btn_bg .select{ background-color:#fff; color:#5fc0cd; border-radius:4px; }
+
+.tab{width: 100%; height:40px; border-bottom:#e1e5e7 solid 1px; position:fixed; left:0; top:44px; z-index: 999; background-color: #fff;}
+.yiji>li{ width:33.3333%; height:40px; float:left; box-sizing: border-box; padding: 0 15px; }
+.yiji>li>a{ white-space: nowrap; overflow: hidden;}
+.yiji>li>a:hover{text-decoration: none; color:#5fc0cd;}
+.yiji{ margin-bottom:0; }
+.yiji .tab_line{ background:url(../images/right_line.png) no-repeat right center; background-size: auto 40px; }
+.tab_con{ color: #333; width:100%; height:40px; display: inline-block; text-align: center; line-height: 40px; background: url(../images/arrow_down1.png) no-repeat center right; }
+.clear{ clear: both; }
+
+.main{ padding-top:84px; padding-bottom:50px; }
+.list{ box-sizing:border-box; padding:20px; overflow:hidden; border-bottom:#ddd solid 1px; position: relative;}
+.list_l{ overflow:hidden; padding-right: 90px;}
+.list_l div{ margin:3px 0; }
+.list_l div span{ font-size:15px; color:#999; overflow: hidden;text-overflow: ellipsis; /*以省略号...显示*/white-space: nowrap; display: inline-block; width: 100%;}
+.list_l i{ display:inline-block; width:18px; height:18px; position: absolute; left: 0px; top:1px;}
+.list_l .list_bg .location{width:16px; height:16px;}
+.calendar{ background-position: -37px -6px;}
+.location{ background-position: -58px -8px; }
+.list_l div .time{ color:#333;}
+.list_bg .time_lo{ font-size:13px;}
+.list_bg{ position: relative; }
+.time{ padding-left:20px;}
+.list_bg span{ margin-left: 20px; }
+.list_r{ font-size: 15px; color:#e63b0e; background:url(../images/arrow_r.png) no-repeat right center; background-size: auto 15px; padding-right: 15px; position: absolute; right: 20px; top:50%; transform: translateY(-50%);}
+.footer{background-color:#f8fafb; height:50px; width:100%; border-top:#dbe5e7 solid 1px; position:fixed; bottom:0;left:0; box-sizing: border-box; padding: 0 20%;}
+.foot_btn_bg{ width:100%; display: flex; overflow: hidden;}
+.foot_btn_bg div{ width:33.333%; height:50px; cursor:pointer;}
+.home{ background:url(../images/home.png) no-repeat center center; background-size: auto 50px; }
+.write{ background:url(../images/write.png) no-repeat center center; background-size: auto 46px; }
+.user{background:url(../images/user.png) no-repeat center center; background-size: auto 50px; }
+
+/*下拉菜单*/
+.tab_sub{ background-color: #f0f0f0; color: #333; display: none; margin-top: -5px;}
+.tab_sub li{ float: none; width:100%; height:40px; line-height: 40px; text-align: center; border-bottom: #ddd solid 1px;}
+.tab_sub li a{ display:block; color: #333; padding: 0 15px; white-space: nowrap; overflow: hidden;}
+.tab_sub li a:hover{ background-color: #5fc0cd; color: #fff; text-decoration: none; }
+.yiji>li:hover .tab_sub{ display: block; }
+
