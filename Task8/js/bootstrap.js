@@ -329,7 +329,7 @@ if (typeof jQuery === 'undefined') {
   Carousel.TRANSITION_DURATION = 600
 
   Carousel.DEFAULTS = {
-    interval: 5000,
+    interval: 4000,
     pause: 'hover',
     wrap: true,
     keyboard: true
@@ -506,7 +506,7 @@ if (typeof jQuery === 'undefined') {
     if (!$target.hasClass('carousel')) return
     var options = $.extend({}, $target.data(), $this.data())
     var slideIndex = $this.attr('data-slide-to')
-    if (slideIndex) options.interval = false
+    if (slideIndex) options.interval = true
 
     Plugin.call($target, options)
 
