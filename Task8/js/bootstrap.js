@@ -2342,7 +2342,15 @@ if (typeof jQuery === 'undefined') {
     return this
   }
 
-
+$(function(){
+  $(".btn-default").click(function(){
+    if($(".nav-menu-bg").is(':hidden')){
+      $(".nav-menu-bg").show();
+    }else{
+      $(".nav-menu-bg").hide();
+    }
+  })
+})
   // AFFIX DATA-API
   // ==============
 
