@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@bac-color:#5fc0cd;
+@bg-width:100%;
+@bg-height:100%;
+@color:#fff;
+@box:border-box;
+@mt:0.2rem;
+@font-size:0.32rem;
+body{
+	background-color: #eff0f4;
+}
+.top{
+	width: @bg-width;
+	height: 0.88rem;
+	background-color: @bac-color;
+	line-height: 0.88rem;
+	color: @color;
+	a{
+		color: @color;
+		text-decoration: none;
+		float: left;
+		width: 15%;
+		font-size: @font-size;
+	}
+}
+.top-left{
+	padding-left: 0.2rem;
+	box-sizing: @box;
+}
+.top-right{
+	text-align: right;
+	padding-right: 0.2rem;
+	box-sizing: @box;
+}
+.top-center{
+	width: 70%;
+	font-size: @font-size + 0.04rem;
+	text-align: center;
+	float: left;
+}
+.input-bg{
+	width: @bg-width;
+	height: 1rem;
+	background-color: #fff;
+	padding: 0.24rem 0;
+	box-sizing: @box;
+	margin-top: @mt;
+	span{
+		width: 1.16rem;
+		height: @bg-height;
+		border-right: #eaedee solid 1px;
+		float: left;
+	}
+	.input-bg1{
+		overflow: hidden;
+		height: @bg-height;
+		.input{
+			width: @bg-width;
+			height: @bg-height;
+			border: none;
+			padding-left: 0.2rem;
+			box-sizing: @box;
+			font-size: @font-size;
+		}
+	}
+}
+.phone{
+	background: url(images/iphone.png) no-repeat center center /0.27rem auto;
+}
+.pwd{
+	background: url(images/locked2.png) no-repeat center center /0.29rem auto;
+}
+.btn{
+	width: @bg-width;
+	height: 1rem;
+	background-color: @bac-color;
+	border: none;
+	color: @color;
+	font-size: @font-size + 0.04rem;
+	margin-top: @mt + 0.4rem;
+}
+.forget{
+	margin-top: @mt;
+	font-size: @font-size;
+	color: #5fc0cd;
+	float: right;
+	margin-right: 0.2rem;
+}

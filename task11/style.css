@@ -1,0 +1,81 @@
+@charset "UTF-8";
+body {
+  background-color: #eff0f4;
+}
+.top {
+  width: 100%;
+  height: 0.88rem;
+  background-color: #5fc0cd;
+  line-height: 0.88rem;
+  color: #fff;
+}
+.top a {
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  width: 15%;
+  font-size: 0.32rem;
+}
+.top-left {
+  padding-left: 0.2rem;
+  box-sizing: border-box;
+}
+.top-right {
+  text-align: right;
+  padding-right: 0.2rem;
+  box-sizing: border-box;
+}
+.top-center {
+  width: 70%;
+  font-size: 0.36rem;
+  text-align: center;
+  float: left;
+}
+.input-bg {
+  width: 100%;
+  height: 1rem;
+  background-color: #fff;
+  padding: 0.24rem 0;
+  box-sizing: border-box;
+  margin-top: 0.2rem;
+}
+.input-bg span {
+  width: 1.16rem;
+  height: 100%;
+  border-right: #eaedee solid 1px;
+  float: left;
+}
+.input-bg .input-bg1 {
+  overflow: hidden;
+  height: 100%;
+}
+.input-bg .input-bg1 .input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-left: 0.2rem;
+  box-sizing: border-box;
+  font-size: 0.32rem;
+}
+.phone {
+  background: url(images/iphone.png) no-repeat center center / 0.27rem auto;
+}
+.pwd {
+  background: url(images/locked2.png) no-repeat center center / 0.29rem auto;
+}
+.btn {
+  width: 100%;
+  height: 1rem;
+  background-color: #5fc0cd;
+  border: none;
+  color: #fff;
+  font-size: 0.36rem;
+  margin-top: 0.6rem;
+}
+.forget {
+  margin-top: 0.2rem;
+  font-size: 0.32rem;
+  color: #5fc0cd;
+  float: right;
+  margin-right: 0.2rem;
+}
