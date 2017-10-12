@@ -1,0 +1,218 @@
+@charset "UTF-8";
+@import "public";
+@import "layout";
+body {
+  font-size: 14px;
+  font-family: "Microsoft Yahei"
+}
+.top{
+	width: 100%;
+	background-color: @bgc-color-white;
+	overflow: hidden;
+	.top-phone{
+		float: left;
+		height: 40px;
+		line-height: 40px;
+		font-size: 14px;
+		color: #29b078;  
+	}
+	.top-link{
+		float: right;
+		height: 40px;
+		overflow: hidden;
+		a{
+			float: left;
+			width: 38px;
+			height: 40px;
+		}
+		.weixin{
+			background: url(../images/weixin.png) no-repeat center right / 26px auto;
+		}
+		.qq{
+			background: url(../images/qq.png) no-repeat center right / 26px auto;
+		}
+		.weibo{
+			background: url(../images/weibo.png) no-repeat center right / 26px auto;
+		}
+	}
+}
+.top-menu{
+	width: 100%;
+	min-height: 100px;
+	background-color: @bgc-color-green;
+	.top-logo{
+		float: left;
+		width: 120px;
+		height: 100px;
+		background: url(../images/logo.png) no-repeat center left / 107px auto;
+	}
+	.nav{
+		float: right;
+		overflow: hidden;
+		li{
+			float: left;
+			width: 100px;
+			height: 100px;
+			a{
+				width: 100px;
+				height: 96px;
+				line-height: 96px;
+				border-bottom: #29b078 solid 4px;
+				font-size: 16px;
+				color: #fff;
+				display: block;
+				text-align: center;
+			}
+			.active,
+			a:hover{
+				border-bottom: #fff solid 4px;
+			}
+		} 
+	}
+	.menu-slid{
+		float: right;
+		width: 40px;
+		height: 40px;
+		background: url(../images/menu.png) no-repeat center center / 20px auto;
+		border: none;
+		border-radius: 6px;
+		margin-top: 30px;
+		display: none;
+	}
+	.menu-slid:focus{
+		background-color: #21a66f;
+	}
+	
+}
+.nav-slid{
+	width: 100%;
+	padding: 0 15px;
+	box-sizing: border-box;
+	background-color: @bgc-color-green;
+	display: none;
+	ul li a{
+		display: block;
+		width: 100%;
+		height: 60px;
+		line-height: 60px;
+		text-align: center;
+		font-size: 16px;
+		color: #fff;
+	}
+}
+.foot{
+	width: 100%;
+	background-color: @bgc-color-green; 
+	padding: 30px 0 16px;
+	border-bottom: #32c086 solid 1px;
+	color: #fff;
+	a{
+		color: #fff;
+	}
+	.jnshu{
+		float: left;
+		width: 40%;
+		.jnshu-link{
+			margin-top: 72px;
+			font-size: 14px;
+			a{
+				padding: 5px 10px;
+				
+			}
+			a:first-child{
+				padding-left: 0;
+			}
+		}
+	}  
+	.website{
+		float: left;
+		width: 30%;
+		.website-link{
+			margin-top: 20px; 
+			font-size: 14px;
+			a{
+				float: left;
+				width: 50%;
+				height: 40px;
+				line-height: 40px;
+			} 
+			a:nth-child(1n+0){
+				width: 35%;
+			}
+
+		}
+	}
+	.eweima{
+		float: right;
+		.eweima-img{
+			width: 100px;
+			height: 100px;
+			background: url(../images/weixin_ewm.png) no-repeat center center / 92px auto;
+			margin-top: 10px;
+		}
+	}
+	.title{
+		font-size: 16px;
+	}
+}
+.copyright{
+	width: 100%;
+	background-color: @bgc-color-green; 
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+}
+@media (max-width: 990px) {
+	.foot .website .website-link a:nth-child(n){
+		width: 50%;
+	}
+}
+@media (max-width: 686px) {
+	.foot{
+		.jnshu,
+		.website,
+		.eweima{
+			width: 100%;
+			float: none;
+		}
+		.jnshu{
+			margin-bottom: 20px;
+			.jnshu-link{
+				margin-top: 20px;
+			}
+		}
+		.website{
+			margin-bottom: 10px;
+
+			.website-link{
+				margin-top: 0; 
+				overflow: hidden;
+				a{
+					margin-right: 20px;
+					width: auto;
+				} 
+				a:nth-child(1n+0){
+				width: auto;
+			}
+				
+
+			}
+		}
+		.eweima{
+
+		}
+	}
+}	
+@media (max-width: 590px) {
+  .container {
+      width: 100%;
+    }
+    .nav{
+      display: none;
+    }
+    .top-menu .menu-slid{
+      display: block;
+    }
+}

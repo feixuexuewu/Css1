@@ -1,0 +1,342 @@
+@charset "UTF-8";
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.container .row {
+  margin-left: -15px;
+  margin-right: -15px;
+  overflow: hidden;
+}
+.container .col-md-4,
+.container .col-md-8 .col-md-10 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+  float: left;
+}
+.col-xs-12 {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  .container .col-sm-3 {
+    float: left;
+    width: 25%;
+  }
+  .container .col-sm-sp {
+    float: left;
+    width: 20%;
+  }
+  .container .col-sm-9 {
+    float: left;
+    width: 75%;
+  }
+  .container .col-sm-6 {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .container .col-md-4 {
+    float: left;
+    width: 33.33333%;
+  }
+  .container .col-md-8 {
+    float: left;
+    width: 66.66666667%;
+  }
+  .container .col-md-10 {
+    float: left;
+    width: 83.33333333%;
+  }
+  .container .col-md-2 {
+    float: left;
+    width: 16.66666667%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+body {
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+}
+.top {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+.top .top-phone {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #29b078;
+}
+.top .top-link {
+  float: right;
+  height: 40px;
+  overflow: hidden;
+}
+.top .top-link a {
+  float: left;
+  width: 38px;
+  height: 40px;
+}
+.top .top-link .weixin {
+  background: url(../images/weixin.png) no-repeat center right / 26px auto;
+}
+.top .top-link .qq {
+  background: url(../images/qq.png) no-repeat center right / 26px auto;
+}
+.top .top-link .weibo {
+  background: url(../images/weibo.png) no-repeat center right / 26px auto;
+}
+.top-menu {
+  width: 100%;
+  min-height: 100px;
+  background-color: #29b078;
+}
+.top-menu .top-logo {
+  float: left;
+  width: 120px;
+  height: 100px;
+  background: url(../images/logo.png) no-repeat center left / 107px auto;
+}
+.top-menu .nav {
+  float: right;
+  overflow: hidden;
+}
+.top-menu .nav li {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.top-menu .nav li a {
+  width: 100px;
+  height: 96px;
+  line-height: 96px;
+  border-bottom: #29b078 solid 4px;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  text-align: center;
+}
+.top-menu .nav li .active,
+.top-menu .nav li a:hover {
+  border-bottom: #fff solid 4px;
+}
+.top-menu .menu-slid {
+  float: right;
+  width: 40px;
+  height: 40px;
+  background: url(../images/menu.png) no-repeat center center / 20px auto;
+  border: none;
+  border-radius: 6px;
+  margin-top: 30px;
+  display: none;
+}
+.top-menu .menu-slid:focus {
+  background-color: #21a66f;
+}
+.nav-slid {
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  background-color: #29b078;
+  display: none;
+}
+.nav-slid ul li a {
+  display: block;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+.foot {
+  width: 100%;
+  background-color: #29b078;
+  padding: 30px 0 16px;
+  border-bottom: #32c086 solid 1px;
+  color: #fff;
+}
+.foot a {
+  color: #fff;
+}
+.foot .jnshu {
+  float: left;
+  width: 40%;
+}
+.foot .jnshu .jnshu-link {
+  margin-top: 72px;
+  font-size: 14px;
+}
+.foot .jnshu .jnshu-link a {
+  padding: 5px 10px;
+}
+.foot .jnshu .jnshu-link a:first-child {
+  padding-left: 0;
+}
+.foot .website {
+  float: left;
+  width: 30%;
+}
+.foot .website .website-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.foot .website .website-link a {
+  float: left;
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+}
+.foot .website .website-link a:nth-child(1n+0) {
+  width: 35%;
+}
+.foot .eweima {
+  float: right;
+}
+.foot .eweima .eweima-img {
+  width: 100px;
+  height: 100px;
+  background: url(../images/weixin_ewm.png) no-repeat center center / 92px auto;
+  margin-top: 10px;
+}
+.foot .title {
+  font-size: 16px;
+}
+.copyright {
+  width: 100%;
+  background-color: #29b078;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+@media (max-width: 990px) {
+  .foot .website .website-link a:nth-child(n) {
+    width: 50%;
+  }
+}
+@media (max-width: 686px) {
+  .foot .jnshu,
+  .foot .website,
+  .foot .eweima {
+    width: 100%;
+    float: none;
+  }
+  .foot .jnshu {
+    margin-bottom: 20px;
+  }
+  .foot .jnshu .jnshu-link {
+    margin-top: 20px;
+  }
+  .foot .website {
+    margin-bottom: 10px;
+  }
+  .foot .website .website-link {
+    margin-top: 0;
+    overflow: hidden;
+  }
+  .foot .website .website-link a {
+    margin-right: 20px;
+    width: auto;
+  }
+  .foot .website .website-link a:nth-child(1n+0) {
+    width: auto;
+  }
+}
+@media (max-width: 590px) {
+  .container {
+    width: 100%;
+  }
+  .nav {
+    display: none;
+  }
+  .top-menu .menu-slid {
+    display: block;
+  }
+}
